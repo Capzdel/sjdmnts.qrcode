@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+	
+}
+
+header{
+
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../trade2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+ 
+   display: inline-block;
+}
+
+ul li a{
+   text-decoration: none;
+   color: #fff;
+   padding: 5px 20px;
+   border: 1px solid #transparent;
+   transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+
+}
+.logo img{
+    float: left;
+    width: 100px;	
+    height: auto;
+    margin-top: 25px;
+
+}
+.Tittle{
+	float: left;
+	margin-left: 20px;
+	margin-top: 50px;
+	height: auto;
+   color: #fff;
+	font-size: 20px;
+}
+.First{
+	position: absolute;
+	float: left;
+	margin-left: 100px;
+	margin-top: 150px;
+	margin-right: 400px;
+	height: auto;
+	color: #fff;
+	font-size: 20px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+}
+.img1{
+
+	 float: Right;	
+    margin-right: -100px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.Second{
+	position: absolute;
+	float: left;
+	margin-left: 100px;
+	margin-top: 260px;
+	margin-right: 400px;
+	height: auto;
+	color: white;
+	font-size: 20px;
+   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+}
+.Third{
+	position: absolute;
+	float: left;
+	margin-left: 100px;
+	margin-top: 450px;
+	margin-right: 400px;
+	height: auto;
+	color: white;
+	font-size: 20px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+}
+.img2{
+
+	 float: right;
+	 margin-right: -230px;
+    margin-top: 400px;
+    margin-bottom: 20px;
+
+}
